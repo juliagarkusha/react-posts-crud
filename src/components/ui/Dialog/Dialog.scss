@@ -1,0 +1,14 @@
+.dialog {
+  &-title {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &-actions {
+    button {
+      font-weight: bold;
+    }
+  }
+}

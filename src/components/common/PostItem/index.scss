@@ -1,0 +1,26 @@
+.post__title {
+  white-space: nowrap;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.post__body {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  color: #8A8F9B;
+}
+
+.post__headerRoot {
+  justify-content: space-between;
+}
+
+.post__headerContent {
+  max-width: calc(100% - 75px);
+}
+
+.post__btn-outlined {
+  background-color: rgba(14, 120, 248, 0.19);;
+}
